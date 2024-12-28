@@ -1,3 +1,5 @@
+Baya karışık bilgilerin yer aidığı bir repo olacak 🥲
+
 ![Ekran görüntüsü 2024-12-28 174156](https://github.com/user-attachments/assets/419f76ff-5489-48ac-96b3-a025b52ad772)
 
 BOLD = '\033[1m'  ->  print(Person.BOLD + "Personal İnformation Board" + Person.END) ya da print '\033[1m' + 'Hello' ardından print '\033[0m'
@@ -21,4 +23,50 @@ class color:
    print(color.BOLD + 'Hello, World!' + color.END)
 
 ya da direkt bir değişkene atamadan direkt de kullanabiliriz
+
+
+Ayrıca Windows Komut İstemi'nde (CMD) color komutuyla kısa biçimde renkleri değiştirebiliriz. Kodların açıklaması şu şekilde:
+
+Komut Yapısı:
+color <foreground><background>
+foreground: Yazı rengi.
+background: Arka plan rengi.
+
+Renk Kodları:
+Kod	Renk
+0	Siyah
+1	Mavi
+2	Yeşil
+3	Camgöbeği
+4	Kırmızı
+5	Mor
+6	Sarı
+7	Beyaz
+8	Gri
+9	Açık Mavi
+A	Açık Yeşil
+B	Açık Camgöbeği
+C	Açık Kırmızı
+D	Açık Mor
+E	Açık Sarı
+F	Parlak Beyaz
+Örnekler:
+color FC:
+F → Beyaz arka plan, C → Açık kırmızı yazı.
+
+color 1E:
+1 → Mavi arka plan, E → Açık sarı yazı.
+
+color 07:
+0 → Siyah arka plan, 7 → Beyaz yazı (varsayılan).
+
+Resetlemek için:
+Varsayılan renge dönmek için:
+color
+yazmak yeterli
+
+
+
+
+
 
